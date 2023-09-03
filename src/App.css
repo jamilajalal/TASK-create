@@ -1,0 +1,64 @@
+.task-create{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task-create input,.task-create textarea{
+    padding: 10px;
+    border: 1px solid rgb(228, 227, 227);
+    border-radius: 10px;
+
+}
+.task-create-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.task-create button{
+    padding: 10px 60px;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 20px;
+}
+.task-list{
+    display: flex;
+    justify-content: center;
+   flex-wrap: wrap;
+}
+
+.task-show{
+    border: 1px solid rgb(141, 136, 136);
+    width: 350px;
+  margin: 20px;
+  padding: 20px;
+   display: flex;
+  flex-direction: column; 
+  align-items: center;
+  border-radius: 10px;
+font-size: 18px;
+}
+
+.sil,.deyisdir{
+    background-color: red;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    border: transparent;
+    margin: 5px;
+}
+.deyisdir{
+    background-color: blue;
+}
+
+.h1{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    color: rgb(95, 94, 94);
+}
+
